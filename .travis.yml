@@ -1,3 +1,8 @@
 language: node_js
 node_js:
-  - "node"
+  - node
+env:
+  matrix:
+  - NODE_ENV=TEST
+  global:
+    secure: XPwHzYKuMhwrYV6ftzi358Nyfu996/wBflur7RrzAddbIXWQz1+ZsLbKRfVfZDowB+i4+nb0ZH5QjukBj+mpizWiohPx+WrLw5uWaJuFnsQWv0beq6pcO518kffb7wQ9ZFGsIlObtijs5uwHwkVWrehBSaNhi07d2ebhdnlto7czfIu5lBm3qX3eHz5vO2s/jqert/YOxAuFoaayG1TyNu5M+sA59XkPXLrwK/htlgcc+DsE1dOEuQq8FhcH2IoArQkGJNsrrXB1P1vS4IZJAW6wOEzL4K8XCBWl1Y+OAHB/7wVkl1MH3LWAClHGZn8opWmWRGn4StX4AzeFcVzyAD3m1k4GAcnQT3AYpKhnPSBtNjG7aZlRPgl4uJHwZKf0q3rgdrmfxHIfviiXBW1gimjFRQAHLYM6Xf48Q0wYKmvqPx1E4ZVUsD6v2fYV0NjlgMaHbVTeXwjyJTJc+WAqeu4e1QUQ0wJKFWoYTn4LMpOMPt/yKi8jKuJ3vME9luCmhFafZKmePDcZYZsRvkf9ix32SQ7PaTHwGYVZZ/S3HCoQqikbmpm16Vu9oSzZQPFYkTpg4nMjNEpW/pJAOosVbQKLj5S0L4ROZQg8PQ/MRfQVzU1oCpMM5iW7uJndkvU2lysBU3kUWwKc0+geUQhjx+GQNmqUsCxWvGv6p6bMwxo=
